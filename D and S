@@ -1,0 +1,20 @@
+Stages{
+   stages ('bulid'){
+   steps{
+      echo 'buliding a file'
+      }
+      }
+Stages{
+   stages ('test'){
+   steps{
+      echo 'Testing a file'
+      }
+      }
+Stages{
+   stages ('deploy'){
+   steps{
+      echo 'deploying  a file'
+      }
+      }
+}
+}
